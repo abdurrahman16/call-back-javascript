@@ -1,4 +1,4 @@
-console.log("//Call back and Event Function//");
-function handleClick(){
-    console.log(alert("clicked"));
-}
+
+document.getElementById('firstButton3').addEventListener('click', function(){
+    document.body.style.backgroundColor = 'teal';
+});
