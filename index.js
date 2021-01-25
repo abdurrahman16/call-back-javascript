@@ -1,7 +1,4 @@
-console.log(12);
-
-function addNumbers(num1, num2){
-    return num1 + num2;
+console.log("//Call back and Event Function//");
+function handleClick(){
+    console.log(alert("clicked"));
 }
-
-addNumbers(12,13);
